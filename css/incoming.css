@@ -1,0 +1,156 @@
+h2 {
+
+    width: 85px;
+    height: 23px;
+    margin-left: 30px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #FCBD00;
+}
+
+/* Content */
+.content-section {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+
+}
+
+.content-control {
+    display: flex;
+
+
+}
+
+.content-in {
+    max-width: 90%;
+    width: 435px;
+    margin: 30px;
+    height: 598px;
+    background-color: #00906b;
+    border-radius: 29px;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.orders {
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+}
+
+.order-option>p {
+    opacity: 0.8;
+}
+
+.client-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.client-info>img {
+    align-self: center;
+    margin: 5px;
+}
+
+.two-btn {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50%;
+}
+
+
+.two-btn>div {
+    height: 60px;
+    width: 168px;
+    color: #00906b;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    background: #FFFFFF;
+    border-radius: 26px;
+}
+
+.two-btn>div:hover {
+    opacity: 0.8;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+/* Responsive */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+    .content-in {
+        width: 70%;
+
+        height: 400px;
+        margin: 30px;
+        background-color: #00906b;
+        border-radius: 29px;
+    }
+
+    .two-btn {
+        margin-top: 7%;
+        margin-right: 5%;
+    }
+
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    .content-in {
+        width: 70%;
+
+        height: 400px;
+        margin: 30px;
+        background-color: #00906b;
+        border-radius: 29px;
+    }
+
+    .two-btn {
+        margin-top: 7%;
+        margin-right: 5%;
+    }
+
+    .content-control {
+        display: flex;
+        flex-direction: column;
+
+    }
+    body{
+        overflow-x: visible;
+    }
+    
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+
+
+    .content-in {
+        width: 70%;
+
+        height: 400px;
+        margin: 30px;
+        background-color: #00906b;
+        border-radius: 29px;
+    }
+
+    .two-btn {
+        margin-top: 7%;
+        margin-right: 5%;
+    }
+
+    .content-control {
+        display: flex;
+        flex-direction: column;
+    }
+}

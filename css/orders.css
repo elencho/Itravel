@@ -1,0 +1,139 @@
+h2 {
+
+    margin: 20px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: justify;
+
+    color: #FCBD00;
+}
+
+.tanstlate{
+    transform: translateX();
+}
+
+.row {
+    display: flex;
+
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.carts {
+    padding-top: 30px;
+    margin: 20px;
+}
+
+.cart-info {
+    height: 48px;
+    width: 259px;
+    margin: 10px;
+    display: flex;
+    cursor: pointer;
+}
+
+.cart-info.active {
+    background-color: #F7F7F7;
+
+    border-left: 2px solid #F4EBC8;
+
+
+}
+
+.cart-info>div {
+    display: block;
+    padding-left: 20px;
+}
+
+.cart-info>img {
+    align-self: center;
+    padding-left: 5px;
+}
+
+.cart-info>div>h4 {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: justify;
+
+    color: #000000;
+
+}
+
+.cart-info>div>p {
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: justify;
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+
+.line {
+
+    width: 1px;
+    height: 847px;
+
+    border: 1px solid #E5E5E5;
+}
+
+.order {
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.content-one>.row {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.division {
+    margin: 10px;
+    height: 1px;
+    width: 90vh;
+    border: 0.8px solid #E5E5E5;
+}
+
+.row>img {
+
+    align-self: center;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    .division {
+
+        width: 20vh;
+    }
+
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+    .division {
+
+        width: 20vh;
+    }
+}

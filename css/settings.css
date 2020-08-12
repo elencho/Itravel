@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+
+h2 {
+
+    margin: 20px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: justify;
+
+    color: #FCBD00;
+
+}
+
+.wrap {
+    padding: 20px;
+}
+.wrap > img {
+    margin: 20px;
+}
+
+.input-box {
+    display: block;
+    margin: 20px;
+}
+
+.input-box > input::placeholder {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    /* identical to box height */
+
+
+    color: #2E384D;
+}
+
+
+.input-box>p {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1.125px;
+    text-transform: uppercase;
+
+    color: #B6BCCD;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap ;
+}
+
+.wrap-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.input-box > input {
+    background: rgba(224, 231, 255, 0.2);
+    border: 1px solid #E0E7FF;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 272px;
+    height: 38px;
+    outline: none;
+}

@@ -1,0 +1,265 @@
+h2 {
+
+    margin: 20px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+
+    line-height: 23px;
+    text-align: justify;
+
+    color: #FCBD00;
+}
+
+.content-wrap {
+    display: flex;
+}
+
+.standart-box {
+    padding: 20px;
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+}
+
+.standart-box>div.active {
+    background-color: #FACF00;
+    color: #FFF;
+}
+
+.standart-box>div {
+    text-align: center;
+    border-radius: 26px;
+
+    cursor: pointer;
+    padding: 7px;
+    width: 267px;
+    height: 52px;
+    font-family: Roboto;
+    font-style: normal;
+
+    font-size: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    color: #000000;
+}
+
+
+.standart-box>p:hover {
+    opacity: 0.7;
+    cursor: pointer
+}
+
+.standart-box>p {
+
+    color: #76CFB8;
+    width: 112px;
+    height: 23px;
+
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.line {
+
+    width: 1px;
+    height: 847px;
+
+    border: 1px solid #E5E5E5;
+}
+
+/* IOS Switch src:https://codepen.io/BandarRaffah/pen/ibwje?editors=1100 */
+
+
+input[type="checkbox"] {
+    opacity: 0;
+}
+
+/* Normal Track */
+input[type="checkbox"].ios-switch+div {
+    vertical-align: middle;
+    width: 90px;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, .4);
+    border-radius: 999px;
+    background-color: rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: .4s;
+    -webkit-transition-property:
+        background-color, box-shadow;
+    box-shadow: inset 0 0 0 0px rgba(0, 0, 0, 0.4);
+    margin: ;
+}
+
+/* Big Track */
+input[type="checkbox"].bigswitch.ios-switch+div {
+    width: 50px;
+    height: 25px;
+}
+
+/* Green Track */
+input[type="checkbox"].green.ios-switch:checked+div {
+    background-color: #FF2D55;
+    border: 1px solid rgba(255, 45, 85, 1);
+    box-shadow: inset 0 0 0 10px rgba(255, 45, 85, 1);
+}
+
+/* Normal Knob */
+input[type="checkbox"].ios-switch+div>div {
+    width: 18px;
+    height: 18px;
+    border-radius: inherit;
+    background: #ffffff;
+    -webkit-transition-timing-function: cubic-bezier(.54, 1.85, .5, 1);
+    -webkit-transition-duration: 0.4s;
+    -webkit-transition-property: transform, background-color, box-shadow;
+    -moz-transition-timing-function: cubic-bezier(.54, 1.85, .5, 1);
+    -moz-transition-duration: 0.4s;
+    -moz-transition-property: transform, background-color;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3), 0px 0px 0 1px rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+    margin-top: 1px;
+    margin-left: 1px;
+}
+
+/* Big Knob */
+input[type="checkbox"].bigswitch.ios-switch+div>div {
+    width: 23px;
+    height: 23px;
+    margin: 0.5px;
+}
+
+/* Checked Big Knob (Blue Style) */
+input[type="checkbox"].bigswitch.ios-switch:checked+div>div {
+    -webkit-transform: translate3d(25px, 0, 0);
+    -moz-transform: translate3d(16px, 0, 0);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3), 0px 0px 0 1px rgba(8, 80, 172, 1);
+}
+
+/* Green Knob */
+input[type="checkbox"].green.ios-switch:checked+div>div {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(255, 45, 85, 1);
+}
+
+/*                   END                           */
+
+.img-wrap>img {
+    padding: 10px;
+
+}
+
+
+.img-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.general-info>h2 {
+
+
+    font-family: Roboto;
+    font-size: 21px;
+    line-height: 25px;
+
+    color: #000000;
+}
+
+.general-info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.features-info {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.features {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.wraping {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.stuff {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.input-box>p {
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+
+    display: flex;
+    align-items: center;
+
+    color: #4E5D78;
+}
+
+.input-box>textarea {
+    height: 80px;
+    width: 400px;
+
+    background: #0C66FF;
+    border-radius: 4px;
+    outline: none;
+    color: #ffffff;
+    border: none;
+}
+
+.input-box>input {
+    color: #ffffff;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 246px;
+    background: #0C66FF;
+    border-radius: 4px;
+}
+
+.done-btn {
+    padding: ;
+    justify-self: flex-end;
+    height: 38px;
+    width: 498px;
+    background-color: #0BEFB5;
+
+    color: #ffffff;
+    border-radius: 4px;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
